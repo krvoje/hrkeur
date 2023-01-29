@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "HRKEUR",
+    "slug": "hrkeur",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0fa958",
+      "image": "./assets/icon.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "userInterfaceStyle": "automatic",
+      "supportsTablet": true
+    },
+    "android": {
+      "userInterfaceStyle": "automatic",
+      "icon": "./assets/icon.png",
+      "package": "com.krvoje.hrkeur"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "760b0f3c-e570-4769-bf05-18f12deb753f"
+      }
+    },
+    "owner": "krvoje"
+  }
+}
